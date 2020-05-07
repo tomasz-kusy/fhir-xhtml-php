@@ -1,0 +1,241 @@
+TKusy\FhirXhtml\Map:
+    xml_root_name: map
+    xml_root_namespace: 'http://www.w3.org/1999/xhtml'
+    properties:
+        lang:
+            expose: true
+            access_type: public_method
+            serialized_name: lang
+            accessor:
+                getter: getLang
+                setter: setLang
+            xml_attribute: true
+            type: string
+        dir:
+            expose: true
+            access_type: public_method
+            serialized_name: dir
+            accessor:
+                getter: getDir
+                setter: setDir
+            xml_attribute: true
+            type: string
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: class
+            accessor:
+                getter: getClass
+                setter: setClass
+            xml_attribute: true
+            type: \AnyType
+        style:
+            expose: true
+            access_type: public_method
+            serialized_name: style
+            accessor:
+                getter: getStyle
+                setter: setStyle
+            xml_attribute: true
+            type: string
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            xml_attribute: true
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        p:
+            expose: true
+            access_type: public_method
+            serialized_name: p
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getP
+                setter: setP
+            type: TKusy\FhirXhtml\P
+        h1:
+            expose: true
+            access_type: public_method
+            serialized_name: h1
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getH1
+                setter: setH1
+            type: TKusy\FhirXhtml\H1
+        h2:
+            expose: true
+            access_type: public_method
+            serialized_name: h2
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getH2
+                setter: setH2
+            type: TKusy\FhirXhtml\H2
+        h3:
+            expose: true
+            access_type: public_method
+            serialized_name: h3
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getH3
+                setter: setH3
+            type: TKusy\FhirXhtml\H3
+        h4:
+            expose: true
+            access_type: public_method
+            serialized_name: h4
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getH4
+                setter: setH4
+            type: TKusy\FhirXhtml\H4
+        h5:
+            expose: true
+            access_type: public_method
+            serialized_name: h5
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getH5
+                setter: setH5
+            type: TKusy\FhirXhtml\H5
+        h6:
+            expose: true
+            access_type: public_method
+            serialized_name: h6
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getH6
+                setter: setH6
+            type: TKusy\FhirXhtml\H6
+        div:
+            expose: true
+            access_type: public_method
+            serialized_name: div
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getDiv
+                setter: setDiv
+            type: TKusy\FhirXhtml\Div
+        ul:
+            expose: true
+            access_type: public_method
+            serialized_name: ul
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getUl
+                setter: setUl
+            type: TKusy\FhirXhtml\Ul
+        ol:
+            expose: true
+            access_type: public_method
+            serialized_name: ol
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getOl
+                setter: setOl
+            type: TKusy\FhirXhtml\Ol
+        dl:
+            expose: true
+            access_type: public_method
+            serialized_name: dl
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getDl
+                setter: setDl
+            type: TKusy\FhirXhtml\Dl
+        pre:
+            expose: true
+            access_type: public_method
+            serialized_name: pre
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getPre
+                setter: setPre
+            type: TKusy\FhirXhtml\Pre
+        hr:
+            expose: true
+            access_type: public_method
+            serialized_name: hr
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getHr
+                setter: setHr
+            type: TKusy\FhirXhtml\Hr
+        blockquote:
+            expose: true
+            access_type: public_method
+            serialized_name: blockquote
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getBlockquote
+                setter: setBlockquote
+            type: TKusy\FhirXhtml\Blockquote
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: address
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: TKusy\FhirXhtml\Address
+        table:
+            expose: true
+            access_type: public_method
+            serialized_name: table
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getTable
+                setter: setTable
+            type: TKusy\FhirXhtml\Table
+        area:
+            expose: true
+            access_type: public_method
+            serialized_name: area
+            xml_element:
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getArea
+                setter: setArea
+            xml_list:
+                inline: true
+                entry_name: area
+                namespace: 'http://www.w3.org/1999/xhtml'
+            type: array<TKusy\FhirXhtml\Area>
